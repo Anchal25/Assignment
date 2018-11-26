@@ -1,0 +1,4 @@
+<div  class="like-dislike-wrap">
+  <button class="btn like" (click)="likeButtonAction()"  [class.danger]="numberOfLikes == 1"><span>like</span><span class="like-value">{{numberOfLikes}}</span></button>
+  <button class="btn dislike" (click) ="dislikButtoneAction()"><span>dislike</span><span class="dislike-value">{{numberOfDislikes}}</span></button>
+</div>
