@@ -1,0 +1,36 @@
+.like-dislike-wrap
+{
+    width: 500px;
+    height: 300px;
+    background: #000000;
+    margin: 30px auto;
+    text-align: center;
+    padding-top: 200px;
+}
+.btn{
+    padding:  15px 20px 15px 45px;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+cursor: pointer;
+outline: none;
+}
+.like{
+background:url(../../assets/img/like.png) no-repeat 15px 11px;
+background-color: #437EFE;
+}
+.dislike{
+    background:url(../../assets/img/dislike.png) no-repeat 15px 14px;
+background-color: #F0AD4C;
+margin-left: 10px;
+}
+.btn span{
+    margin-left: 4px;
+}
+.like.danger{
+    background-color: #CB2C2E;
+}
